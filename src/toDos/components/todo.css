@@ -1,0 +1,51 @@
+.ToDoActive {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: 40rem;
+  }
+  
+  .ToDoActive h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .ToDoActive button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 3rem;
+    margin: 0;
+    padding: 0;
+    width: 3rem;
+  }
+  
+  .ToDoActive button:hover {
+    background-color: #0069d9;
+  }
+  
+  .ToDoActive .form-control {
+    border-radius: 0;
+    border-color: #ccc;
+    box-shadow: none;
+  }
+  
+  .ToDoActive .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+  }
+  
+  .ToDoActive textarea.form-control {
+    height: 10rem;
+  }
+  
+  .ToDoActive textarea.form-control:focus {
+    height: 15rem;
+  }
